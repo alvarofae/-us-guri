@@ -4,5 +4,9 @@
     --azul: #1f3cdb;
     --verde: #6FFF57;
     --preto: #1E1E1E;
-
+}
+body{
+    background-color: var(--cor-de-fundo);
+    color: var(--preto);
+    font-family: 'Chakra Petch', 'Sans-Senif';
 }

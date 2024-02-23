@@ -27,3 +27,6 @@ body{
     width: 100%;
     font-size: 36px;
 }
+.titulo-principal: span{
+    color: var( #88f4ef)
+}

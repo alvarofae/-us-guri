@@ -10,3 +10,7 @@ body{
     color: var(--preto);
     font-family: 'Chakra Petch', 'Sans-Senif';
 }
+.conteudo-principal{
+    display: flex;
+    flex-direction: column;
+}

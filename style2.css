@@ -13,7 +13,7 @@
 }
 body{
     background-color: var(--cor-de-fundo);
-    color: var(--branco);
+    color: var(green);
     font-family: 'Chakra Petch', 'Sans-Serif';
 }
 .conteudo-principal{

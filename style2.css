@@ -2,7 +2,7 @@
 
 :root{
     --branco: #FFFFFF;
-    --cor-de-fundo: #6FC9C0;
+    --cor-de-fundo: #350028;
     --cor-rosa:#C568CC;
     --verde: #084A56;
     --verde-claro: #636363;
@@ -31,7 +31,7 @@ body{
     font-size: 32px;
 }
 .titulo-principal span{
-    color: var(--red);
+    color: var(--branco);
 }
 .botao{
     font-family:'Chakra Petch', 'Sans-Serif' ;

@@ -31,5 +31,5 @@ body{
     font-size: 32px;
 }
 .titulo-principal span{
-    color: var(rgb(0, 17, 255));
+    color: var(rgba(255, 255, 255, 0));
 }

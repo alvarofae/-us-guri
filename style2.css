@@ -42,7 +42,7 @@ body{
     font-size: 18px;
     align-items: center;
     width: 100%;
-    border-bottom: 4px solid var(-branco);
+    border-bottom: 4px solid var(--branco);
     border-left: 2px solid var(--branco);
     border-right: 2px solid var(--verde-claro);
     border-top: none;

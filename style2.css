@@ -7,7 +7,6 @@
     --verde: #084A56;
     --verde-claro: #636363;
     --verde-limao: #6FFF57;
-    --botao-inativo: rgba(58, 55, 94, 0.5);
     --botao-inativo: rgba(8, 74, 86, 0.5);
     --botao-ativo: rgba(0, 255, 213, 0.795);
 }
@@ -56,7 +55,7 @@ body{
 }
 .ativo{
     background-color: var(--botao-ativo);
-    border-bottom: 4px solid var(--verde-limao);
+    border-bottom: 4px solid var(--verde-limao                                                 );
 }
 @media screen and (min-width: 768px){
     .botoes{

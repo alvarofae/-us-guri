@@ -43,8 +43,8 @@ body{
     align-items: center;
     width: 100%;
     border-bottom: 4px solid var(--verde-limao);
-    border-left: 2px solid var(--yellow);
-    border-right: 2px solid var(--cor-rosa);
+    border-left: 2px solid var(--branco);
+    border-right: 2px solid var(--verde-claro);
     border-top: none;
 }
 .botao:first-child{

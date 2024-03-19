@@ -1,14 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;700&display=swap');
 
 :root{
-    --branco: #fffefe;
-    --cor-de-fundo: #00d9ff;
+    --branco: #FFFFFF;
+    --cor-de-fundo: #6FC9C0;
     --cor-rosa:#C568CC;
     --verde: #084A56;
-    --verde-claro: #636363;
+    --verde-claro: #6FC9C0;
     --verde-limao: #6FFF57;
+    --botao-inativo: rgba(58, 55, 94, 0.5);
     --botao-inativo: rgba(8, 74, 86, 0.5);
-    --botao-ativo: rgba(68, 194, 29, 0.5);
+    --botao-ativo: rgba(17, 209, 243, 0.795);
 }
 body{
     background-color: var(--cor-de-fundo);
@@ -30,10 +31,11 @@ body{
     font-size: 32px;
 }
 .titulo-principal span{
-    color: var(--branco);
+    color: var(--verde-limao);
 }
+
 .botao{
-    font-family:'Chakra Petch', 'Sans-Serif' ;
+    font-family: 'Chakra Petch', Sans-Serif;
     background-color: var(--botao-inativo);
     color: var(--branco);
     display: flex;
@@ -42,9 +44,9 @@ body{
     font-size: 18px;
     align-items: center;
     width: 100%;
-    border-bottom: 4px solid var(--branco);
-    border-left: 2px solid var(--cor-rosa);
-    border-right: 2px solid var(--verde-claro);
+    border-bottom: 4px solid var(--botao-ativo);
+    border-left: 2px solid var(--botao-ativo);
+    border-right: 2px solid var(--botao-ativo);
     border-top: none;
 }
 .botao:first-child{
@@ -55,7 +57,7 @@ body{
 }
 .ativo{
     background-color: var(--botao-ativo);
-    border-bottom: 4px solid var(--verde-limao);
+    border-bottom: 4px solid var(--verde);
 }
 @media screen and (min-width: 768px){
     .botoes{
@@ -68,6 +70,5 @@ body{
         border-radius: 0 40px 0 0;
     }  
 }
-    
 
     
